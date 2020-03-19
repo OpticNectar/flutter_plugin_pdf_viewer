@@ -24,7 +24,7 @@ class PDFViewer extends StatefulWidget {
       this.showPicker = true,
       this.showNavigation = true,
       this.tooltip = const PDFViewerTooltip(),
-      this.indicatorPosition = IndicatorPosition.topRight})
+      this.indicatorPosition = IndicatorPosition.topLeft})
       : super(key: key);
 
   _PDFViewerState createState() => _PDFViewerState();
